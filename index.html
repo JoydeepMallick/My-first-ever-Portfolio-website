@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JM's personal portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+
+<body>
+    <!-- header section -->
+    <header>
+        <a href="#" class="logo">Portfolio</a>
+        <div class="toggle" onclick="toggleMenu();"></div>
+        <ul class="menu">
+            <li><a href="#particles-js" onclick="toggleMenu();">Home</a></li>
+            <li><a href="#about" onclick="toggleMenu();">About</a></li>
+            <li><a href="#services" onclick="toggleMenu();">Services</a></li>
+            <li><a href="#work" onclick="toggleMenu();">Work</a></li>
+            <li><a href="#testimonial" onclick="toggleMenu();">Testimonial</a></li>
+            <li><a href="#contact" onclick="toggleMenu();">Contact</a></li>
+        </ul>
+    </header>
+    
+    
+    <section class="banner" id="particles-js">
+        <div class="textBx" >
+            <h2>Hi, I'm<br><span> Joydeep Mallick</span></h2>
+            <h3>Almost a philomath...</h3>
+            <a href="#about" class="btn">About Me</a>
+        </div>
+    </section>
+
+    <section class="about" id="about">
+        <div class="heading">
+            <h2>About Me</h2>
+        </div>
+        <div class="content">
+            <div class="contentBx w50">
+                <h3>I'm into Full Stack Web Development and a Machine Learning Enthusiast</h3>
+                <p>I am currently pursuing my Bachelors degree in Computer Science and Engineering. I am quite keen to learn new technologies and implement them wherever possible. I enjoy competitive programming in C++. I am having medium experience in C, C++, Java, JavaScript,Html and CSS and MySQL and always learning on the go.
+                <br>
+                <br>
+                I am currently interested in Full Stack Web Development using MERN stack and also keen in Machine Learning after realising the true essence from technologies like AlphaCode and AI image generators from simple text.
+                </p>
+                <a href="./image/RESUME_template.pdf" class="btn">VIEW RESUME</a>
+                <br>
+                <br>
+            </div>
+            <div class="w50">
+                <img src="./image/thoughtful-thinking.gif" class="img" alt="*thinking" style="width:400px;height:250px;padding: 0 3rem;">
+            </div>
+        </div>
+    </section>
+
+    <section class="services" id="services">
+        <div class="heading white">
+            <h2>My Skills</h2>
+            <p>Listed below are my current skills</p>
+        </div>
+        <div class="content">
+            
+            <div class="servicesBx">
+                <img src="./image/web-design-background_1300-39.webp" alt="web design" style="width:200px">
+                <h2>Web Design</h2>
+                <p>Still learning, had made a landing page using only HTML, CSS. Learning Bootstrap on the go.</p>
+            </div>
+            <div class="servicesBx">
+                <img src="./image/machine-learning-6210226-5106142.webp" alt="machine learning" style="width:200px">
+                <h2>Machine Learning</h2>
+                <p>Had made a Stock Price predictor based on Simple Linear regression, learning more and experimenting.</p>
+            </div>
+            <div class="servicesBx">
+                <img src="./image/website-development.png" alt="web development" style="width:200px">
+                <h2>Web Development</h2>
+                <p>Way more to go, this website can be an illutration of my work, more updated coming soon.</p>
+            </div>
+            <div class="servicesBx">
+                <img src="./image/open-source-project-to-contribute.jpg" alt="open source" style="width:200px">
+                <h2>Open Source Contribution</h2>
+                <p>Participated in Hacktoberfest 2022 for the first time and made 4 successful PRs. Excited to dig in more into open source.</p>
+            </div>
+            <div class="servicesBx">
+                <img src="./image/cp.png" alt="competitve programming" style="width:200px">
+                <h2>Competitve Programming</h2>
+                <p>A fan of William Lin and Second Thread, stars in the competitive programming world. Aspire to improve, inspired greatly from them.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="work" id="work">
+        <div class="heading">
+            <h2>My Works</h2>
+            <p>Listed below are my current works</p>
+        </div>
+        <div class="content">
+            <div class="workBx">
+                <img src="./image/landingpage.png" alt="landing page">
+                <a href="https://github.com/JoydeepMallick/OIBGRIP/tree/main/task1/LANDING%20PAGE" target="_blank">My landing page</a>
+            </div>
+            <div class="workBx">
+                <img src="./image/pricepredictor.png" alt="landing page">
+                <a href="https://github.com/JoydeepMallick/FIRST_PROJECT_MACHINE_Learning" target="_blank">My stock price predictor</a> 
+            </div>
+            <div class="workBx">
+                <img src="./image/alarmclock.png" alt="landing page">
+                <a href="https://github.com/JoydeepMallick/Simple-Alarm-clock" target="_blank">My alarm clock</a>
+                
+            </div>
+            <!-- <div class="workBx">
+                <img src="./image/landingpage.png" alt="landing page">
+            </div> -->
+
+            <div class="heading">
+                <a href="https://github.com/JoydeepMallick?tab=repositories&q=&type=source&language=&sort=" class="btn">View More</a>
+            </div>
+        </div>
+    </section>
+    
+    <section class="testimonial" id="testimonial">
+        <div class="heading">
+            <h2>Testimonial</h2>
+            <p>What people think about me</p>
+        </div>
+        <div class="content">
+            <div class="testimonialBx">
+                <p>Quite good guy, sane and has a good sense of humour. Definitely a deserving guy to be given a chance. Test him as needed.</p>
+                <h3>I wish to be anonymous <br><span>A well seeker</span></h3>
+            </div>
+            <div class="testimonialBx">
+                <p>A professional guy with a serious attitude. Focused on work and finds humour in every little thing. Helps people take stress with ease.</p>
+                <h3>Brian Macaulay <br><span>HR,Company Unknown</span></h3>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <div class="heading white">
+            <h2>Contact Me</h2>
+            <p>Find my details below</p>
+        </div>
+        <div class="content">
+            <div class="contactInfo">
+                <h3>Contact Info</h3>
+                <div class="contactInfoBx">
+                    <div class="box">
+                        <div class="icon">
+                            <i class="fa-solid fa-location-dot"></i>
+                        </div>
+                        <div class="text">
+                            <h3>Address</h3>
+                            <p>9/19 Newton Avenue, B-Zone,<br>Durgapur-713205,District Paschim Bardhaman,<br>West Bengal, India</p>
+                        </div>
+                    </div>
+                    
+                    <div class="box">
+                        <div class="icon">
+                            <i class="fa-solid fa-phone"></i>
+                        </div>
+                        <div class="text">
+                            <h3>Phone</h3>
+                            <p>937800xxxx</p>
+                        </div>
+                    </div>
+
+                    <div class="box">
+                        <div class="icon">
+                            <i class="fa-solid fa-envelope"></i>
+                        </div>
+                        <div class="text">
+                            <h3>Email</h3>
+                            <p>sunshine******@gmail.com</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="formBx">
+                <form>
+                    <h3>Message Me</h3>
+                    <input type="text" name="" placeholder="Full Name">
+                    <input type="email" name="" placeholder="Email">
+                    <textarea placeholder="Your Message"></textarea>
+                    <input type="submit" value="Send">
+                </form>
+            </div>
+
+        </div>       
+    </section>
+
+    <div class="copyright">
+        <p>Copyright © 2022 from Joydeep Mallick👦🏼. All Rights Reserved🔐.</p>
+    </div>
+
+    <script type="text/javascript">
+        window.addEventListener('scroll',function(){
+            var header = document.querySelector('header');
+            header.classList.toggle('sticky',window.scrollY > 0);
+        });
+
+        function toggleMenu(){
+            var menuToggle = document.querySelector('.toggle');
+            var menu = document.querySelector('.menu');
+            
+            menuToggle.classList.toggle('active');
+            menu.classList.toggle('active');
+        }
+    </script>
+
+
+    <script type="text/javascript" src="particles.js"></script>
+    <script type="text/javascript" src="app.js"></script>
+</body>
+</html>
